@@ -48,7 +48,7 @@ Mednutr is a comprehensive web application designed to streamline medical and nu
 
 # Demo and Presentation
 
--YouTube Demo: [Mednutr Demo]() – A video walkthrough of the platform and its features.
+-YouTube Demo: [Mednutr Demo](https://youtu.be/emAYaYG3poI) – A video walkthrough of the platform and its features.
 
 -Presentation Slides: [Mednutr PPT](https://mednutr.my.canva.site/your-paragraph-text) – A detailed presentation covering the project overview, features, and technical stack.
 ---
