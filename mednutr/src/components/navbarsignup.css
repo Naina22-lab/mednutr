@@ -1,0 +1,62 @@
+/* Navbar.css */
+.navbar {
+    width: 90%;
+    background-color: #bdeea5;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo styles */
+  .logo {
+    flex-shrink: 0;
+  }
+  
+  .logo-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Navbar links container */
+  .navbar-links {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  /* Navbar link styles */
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  /* Style for the Sign Up link */
+  .signup-link {
+    margin-left: auto; /* Pushes the Sign Up link to the right */
+  }
+  
+  .navbar-link:hover {
+    color: #ff6347;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .signup-link {
+      margin-left: 0; /* Reset margin in mobile view */
+    }
+  }
+  

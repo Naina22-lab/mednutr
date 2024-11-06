@@ -1,0 +1,86 @@
+.payment-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    background-color: #bdeea5;
+  }
+/*   
+  .navbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  } */
+  
+  .payment-options {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .payment-button {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:  #3ab57e;
+  }
+  
+  .payment-method-section {
+    margin-top: 30px;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    border: 1px solid #121212;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .pay-via {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .total-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .total-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .total-amount {
+    font-size: 18px;
+  }
+  
+  .pay-now-button {
+    margin-top: 40px;
+    background-color: #3ab57e;
+    color: rgb(9, 9, 9);
+     margin-left: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
