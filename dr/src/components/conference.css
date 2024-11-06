@@ -1,0 +1,62 @@
+.conference-container {
+    padding: 20px;
+    background-color: #f4f7fa;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .conference-table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conference-table th, .conference-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .conference-table th {
+    background-color: #3ab57e;
+    color: rgb(9, 9, 9);
+    text-transform: uppercase;
+  }
+  
+  .conference-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .action-button {
+    margin-right: 10px;
+    background-color: #3ab57e;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #2a8d5d;
+  }
+  
+  .status-button {
+    background-color: #3ab57e;
+    color: black;
+    border: none;
+  }
+  
+  .status-button:hover {
+    background-color: #2a8d5d;
+  }
+  
+  .ant-modal-title {
+    color: #333;
+  }
+  
